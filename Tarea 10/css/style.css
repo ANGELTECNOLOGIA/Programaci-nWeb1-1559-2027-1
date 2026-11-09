@@ -1,6 +1,6 @@
 .fondo1 {
     /*bg-image permite agregar imagenes como fondo de un elemento y también se pueden agregar gradientes*/
-    background-image: linear-gradient(to top, rgba(0, 255, 255, 0.404), rgba(128, 128, 128, 0.404)), url(../imagenes/suimagen.png);
+    background-image: linear-gradient(to top, rgba(0, 255, 255, 0.404), rgba(128, 128, 128, 0.404)), url(../imagenes/suimagen.jpg);
 
     /* Backgound-siza(cover, contain, width(px)-heigth(px))
     Especifíca el tamaño de la imagen de fondo */
