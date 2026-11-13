@@ -5,12 +5,92 @@ body {
 #encabezado {
     background-color: black;
     color: rgb(255, 255, 255);
-    /*El relleno o padding: Espacio entre el contenido del elemento y su borde
+    /* El relleno o padding: Espacio entre el contenido del elemento y su borde
     Se aplican los valores en sentido horario: top, right, bottom y left
-    1valor: t, r, b, l 2valores: tb, rl, 3 valores: t, rl, b*/
+    1 valor: t, r, b, l | 2 valores: tb, rl | 3 valores: t, rl, b */
     /* border-style: solid;
     border-width: 10px;
     border-color: aqua; */
-    border: 2px solid aqua;
-    padding: 15px 5px 50px 60px;
+    border: 10px ridge aqua;
+    border-top: solid;
+    border-left-color: red;
+    border-right-color: red;
+    border-bottom-width: 2px;
+    border-radius: 5%;
+    padding: 35px;
+
+    /* El margin es el espacio que hay entre un elemento HTML y otro */
+    margin: 15px 30px;
+
+    /* Es el contorno visual alrededor de nuestro elemento HTML (después del relleno)
+    valores (solid, dotted, dashed, double, groove, ridge, inset, outset, none) */
+
+    /* box-shadow: Se puede utilizar para crear efectos de sombra a los elementos
+    valores: desplazamiento horizontal, desplazamiento vertical, radio de desenfoque, radio de extensión, color */
+    box-shadow: -5px -5px 5px 5px red;
+}
+
+.introduccion {
+    border: 2px solid rgb(170, 255, 32);
+    background-color: rgb(0, 40, 56);
+    padding: 5px;
+    color: white;
+}
+
+.introduccion p {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid gold;
+    box-sizing: border-box;
+    font-family: "Kreon", serif;
+}
+
+.introduccion span {
+    width: 300px;
+    height: 150px;
+    border: 5px solid lime;
+    padding: 10px;
+    margin: 50px;
+}
+
+.texto-fuente {
+    background-color: black;
+    color: white;
+}
+
+.propiedades-texto h2 {
+    border: 2px solid rgb(0, 26, 255);
+    padding: 5px;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-shadow: 2px 2px 2px paleturquoise;
+    font-family: "Google Sans Code", monospace;
+}
+
+.propiedades-texto p {
+    font-family: "Google Sans Code", monospace;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.propiedades-fuentes h2 {
+    padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 2px paleturquoise;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+
+.propiedades-fuentes p {
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-style: italic;
 }
