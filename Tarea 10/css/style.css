@@ -19,7 +19,26 @@
     background-attachment: scroll;
 
     /* Propiedades generales de contenedor */
-    height: 500px;
-    width: 450px;
+    height: 800px;
+    width: 600px;
     
+     /*background-attachment (scroll y fixed) 
+    se utiliza para que la imagen quede fija cuando un usuario se desplaza
+    por la pagina*/
+
+    background-attachment: fixed;
+}
+
+.p-1
+{
+    color: white;
+}
+
+.fondo2
+{
+    /*background: (image) (position) / (size) (repeat) (attachment) (color)*/
+    background: url(../imagenes/gato-quieto.webp) center / cover no-repeat scroll rgba(255, 255, 255, 0.376);
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
 }
